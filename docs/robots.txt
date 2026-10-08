@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://technewscompany.com/sitemap.xml
+Sitemap: https://technewscompany.com/news-sitemap.xml
