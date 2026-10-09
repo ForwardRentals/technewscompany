@@ -7,6 +7,8 @@ dateline: SQUAMISH, British Columbia
 contact_name: Forward Rentals Inc.
 contact_email: info@rentedlocal.com
 website: https://rentedlocal.com
+image: /img/news/rented-local-launches-embeddable-booking-widget.jpg
+image_credit: Mamquam Sauna|https://mamquamsauna.com
 ---
 Rented Local, the peer-to-peer rental marketplace serving Squamish, Whistler and Pemberton, today announced an embeddable booking widget that lets local rental and experience businesses take bookings directly on their own websites.
 
