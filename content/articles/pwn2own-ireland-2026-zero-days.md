@@ -4,6 +4,8 @@ date: 2026-10-08
 category: Security
 company: Samsung
 source: BleepingComputer, via Tech Startups|https://techstartups.com/2026/10/08/top-tech-news-today-october-8-2026-globalfoundries-google-manus-microsoft-nvidia-openai-tencent-more/
+image: /img/news/pwn2own-ireland-2026-zero-days.jpg
+image_credit: Markus Spiske markusspiske / CC0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Code_on_computer_monitor_(Unsplash).jpg
 ---
 Security researchers demonstrated 45 previously undisclosed vulnerabilities on the second day of Pwn2Own Ireland 2026, earning $232,500 in combined awards, BleepingComputer reports.
 

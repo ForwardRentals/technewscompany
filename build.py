@@ -100,10 +100,21 @@ def nice_date(dt):
     return f"{dt:%B} {dt.day}, {dt.year}"
 
 def art(a, size=""):
+    if a.get("image"):
+        lazy = "" if size in ("big", "wide") else ' loading="lazy"'
+        return (f'<div class="art img {size}"><img src="{esc(a["image"])}" alt="{esc(a["title"])}"'
+                f'{lazy} decoding="async"></div>')
     color = CATS.get(a["category"], "#334155")
     label = esc(a.get("company", ""))
     return (f'<div class="art {size}" style="--c:{color}" aria-hidden="true">'
             f'<span class="art-co">{label}</span><span class="art-cat">{esc(a["category"])}</span></div>')
+
+def credit_html(a):
+    if not a.get("image_credit"):
+        return ""
+    text, url = (a["image_credit"].split("|", 1) + [""])[:2]
+    link = f'<a href="{esc(url)}" target="_blank" rel="noopener">{esc(text)}</a>' if url else esc(text)
+    return f'<p class="credit">Photo: {link}</p>'
 
 def beacon():
     if not CF_BEACON_TOKEN:
@@ -118,7 +129,7 @@ def nav_html(active=""):
              ("Markets", "/category/markets/"), ("Press Releases", "/press-releases/")]
     return "".join(f'<a href="{u}"{" class=on" if active == u else ""}>{t}</a>' for t, u in links)
 
-def page(title, body, desc="", path="/", active="", extra_head="", og_type="website"):
+def page(title, body, desc="", path="/", active="", extra_head="", og_type="website", og_image=""):
     full = title if title == NAME else f"{title} | {NAME}"
     today = datetime.now().strftime("%A, %B %d, %Y").replace(" 0", " ")
     return f"""<!doctype html>
@@ -134,7 +145,7 @@ def page(title, body, desc="", path="/", active="", extra_head="", og_type="webs
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:type" content="{og_type}">
 <meta property="og:url" content="{SITE}{path}">
-<meta name="twitter:card" content="summary">
+{f'<meta property="og:image" content="{SITE}{og_image}"><meta name="twitter:card" content="summary_large_image">' if og_image else '<meta name="twitter:card" content="summary">'}
 <link rel="alternate" type="application/rss+xml" title="{NAME}" href="/rss.xml">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -288,7 +299,7 @@ def build_item(a, news, rels):
   <h1>{esc(a['title'])}</h1>
   <p class="dek">{esc(a['dek'])}</p>
   <div class="byline"><span>{byline}</span><span>{nice_date(a['dt'])} &middot; {a['read']} min read</span></div>
-  {art(a, 'wide')}
+  {art(a, 'wide')}{credit_html(a)}
   <div class="prose">{first}{body_html}</div>
   {contact}
   {src}
@@ -312,6 +323,8 @@ def build_item(a, news, rels):
           "mainEntityOfPage": f"{SITE}{a['url']}", "articleSection": a["category"],
           "author": {"@type": "Organization", "name": a.get("company") if is_pr else "TNC Newsdesk"},
           "publisher": {"@type": "Organization", "name": NAME, "logo": {"@type": "ImageObject", "url": f"{SITE}/favicon.svg"}}}
+    if a.get("image"):
+        ld["image"] = [SITE + a["image"]]
     if not is_pr and a.get("company"):
         ld["about"] = {"@type": "Organization", "name": a["company"]}
     crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -321,7 +334,7 @@ def build_item(a, news, rels):
     head = (f'<meta property="article:published_time" content="{a["dt"].strftime("%Y-%m-%d")}">'
             f'<script type="application/ld+json">{json.dumps(ld)}</script>'
             f'<script type="application/ld+json">{json.dumps(crumbs)}</script>')
-    write(a["url"], page(a["title"], body, a["dek"], a["url"], section, head, "article"))
+    write(a["url"], page(a["title"], body, a["dek"], a["url"], section, head, "article", a.get("image", "")))
 
 def build_list(path, title, intro, items, active, is_pr=False):
     if items:
@@ -491,7 +504,7 @@ def main():
             continue
         shutil.rmtree(x) if x.is_dir() else x.unlink()
     for f in (ROOT / "static").iterdir():
-        shutil.copy(f, OUT / f.name)
+        shutil.copytree(f, OUT / f.name) if f.is_dir() else shutil.copy(f, OUT / f.name)
     (OUT / "CNAME").write_text("technewscompany.com\n")
     (OUT / ".nojekyll").write_text("")
     news, rels = load("articles", "news"), load("releases", "release")

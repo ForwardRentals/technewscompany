@@ -4,6 +4,8 @@ date: 2026-10-07
 category: AI
 company: Anthropic
 source: Anthropic, via Tech Startups|https://techstartups.com/2026/10/08/top-tech-news-today-october-8-2026-globalfoundries-google-manus-microsoft-nvidia-openai-tencent-more/
+image: /img/news/anthropic-claude-haiku-5-5-price-cut.jpg
+image_credit: TechCrunch / CC BY 2.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_06.jpg
 ---
 Anthropic on Tuesday released Claude Haiku 5.5, the newest version of its fastest and least expensive model family, with pricing the company says averages about 75% below Claude Haiku 4.5.
 

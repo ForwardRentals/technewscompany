@@ -4,6 +4,8 @@ date: 2026-10-06
 category: Chips
 company: AMD
 source: Reuters, via Tech Startups|https://techstartups.com/2026/10/06/top-tech-news-today-october-6-2026-amazon-amd-apple-deepseek-google-uber-more/
+image: /img/news/amd-lisa-su-2027-supply-increase.jpg
+image_credit: Gene Wang / CC BY 2.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:AMD_CEO_Lisa_Su_20150603.jpg
 ---
 AMD plans to substantially increase its semiconductor supply in 2027, CEO Lisa Su said during a visit to Taiwan, Reuters reports.
 

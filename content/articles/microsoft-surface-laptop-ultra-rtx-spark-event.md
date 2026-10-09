@@ -5,6 +5,8 @@ date: 2026-10-07
 category: Devices
 company: Microsoft
 source: BGR live coverage|https://bgr.com/2279488/windows-surface-event-october-2026-liveblog-updates
+image: /img/news/microsoft-surface-laptop-ultra-rtx-spark-event.jpg
+image_credit: Brian Smale and Microsoft / CC BY-SA 4.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:MS-Exec-Nadella-Satya-2017-08-31-22_(cropped).jpg
 ---
 Microsoft held its first dedicated Windows and Surface event in more than two years on Tuesday, introducing a new class of Windows PCs built around Nvidia's RTX Spark chip and designed to run advanced AI models on the device.
 

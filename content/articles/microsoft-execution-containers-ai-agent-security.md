@@ -4,6 +4,8 @@ date: 2026-10-07
 category: Security
 company: Microsoft
 source: Microsoft Windows Experience Blog, via Tech Startups|https://techstartups.com/2026/10/08/top-tech-news-today-october-8-2026-globalfoundries-google-manus-microsoft-nvidia-openai-tencent-more/
+image: /img/news/microsoft-execution-containers-ai-agent-security.jpg
+image_credit: Coolcaesar / CC BY-SA 4.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Building92microsoft.jpg
 ---
 Alongside its new Surface hardware, Microsoft on Tuesday moved Microsoft Execution Containers (MXC) to general availability on Windows 11, giving developers a built-in way to run AI agents inside controlled environments.
 

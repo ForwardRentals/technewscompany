@@ -4,6 +4,8 @@ date: 2026-10-06
 category: Markets
 company: Nvidia
 source: CNBC|https://www.cnbc.com/2026/10/05/nvidias-6-trillion-milestone-looms-heres-when-options-traders-see-it-happening.html
+image: /img/news/nvidia-nears-6-trillion-market-value.jpg
+image_credit: Anderseidesvik / CC BY-SA 4.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Jensen_huang_stanford_2026-04-30_023.jpg
 ---
 Nvidia shares climbed back to a record this week, putting the chipmaker on the verge of becoming the first company in history worth $6 trillion.
 

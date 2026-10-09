@@ -4,6 +4,8 @@ date: 2026-10-05
 category: Devices
 company: Apple
 source: MacRumors|https://www.macrumors.com/2026/10/04/apple-event-reportedly-planned-for-october-13/
+image: /img/news/apple-october-13-event-home-hub-report.jpg
+image_credit: Daniel L. Lu (user:dllu) / CC BY-SA 4.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Aerial_view_of_Apple_Park_dllu.jpg
 ---
 Apple is preparing to unveil new smart home products on October 13, according to Bloomberg's Mark Gurman, with a second wave of launches reportedly planned for the final week of October. Apple has not confirmed either date.
 

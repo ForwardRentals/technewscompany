@@ -4,6 +4,8 @@ date: 2026-10-06
 category: Cloud & Infrastructure
 company: Google
 source: Reuters, via Tech Startups|https://techstartups.com/2026/10/06/top-tech-news-today-october-6-2026-amazon-amd-apple-deepseek-google-uber-more/
+image: /img/news/google-constellation-3590-mw-nuclear-power-deal.jpg
+image_credit: Bill Tracey, w:Flickr user iluvcocacola / CC BY 2.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Byron_Nuclear_Generating_Station.jpg
 ---
 Google has agreed to buy 3,590 megawatts of power from Constellation Energy, one of the largest corporate electricity purchases ever in the United States, as AI workloads push hyperscalers to lock in long-term supply.
 

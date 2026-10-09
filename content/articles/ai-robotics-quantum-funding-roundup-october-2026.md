@@ -4,6 +4,8 @@ date: 2026-10-08
 category: Deals & Funding
 company: Startups
 source: Tech Startups daily roundups (Oct 6 and Oct 8)|https://techstartups.com/2026/10/08/top-tech-news-today-october-8-2026-globalfoundries-google-manus-microsoft-nvidia-openai-tencent-more/
+image: /img/news/ai-robotics-quantum-funding-roundup-october-2026.jpg
+image_credit: IBM Research / CC BY 2.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:IBM_Q_System_One_(Fraunhofer)_installation.jpg
 ---
 Venture money continued to flow into AI-adjacent hardware and robotics this week. Here are the notable rounds.
 

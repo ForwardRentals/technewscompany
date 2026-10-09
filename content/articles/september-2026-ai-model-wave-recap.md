@@ -4,6 +4,8 @@ date: 2026-10-02
 category: AI
 company: Industry
 source: CNBC|https://www.cnbc.com/2026/09/06/meta-google-openai-anthropic-ai-model-fatigue.html
+image: /img/news/september-2026-ai-model-wave-recap.jpg
+image_credit: Marián Hubinský / CC BY-SA 4.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Rack_of_Worldwide_LHC_Computing_Grid.jpg
 ---
 September 2026 brought the most compressed stretch of frontier AI releases to date. Here is how it unfolded.
 

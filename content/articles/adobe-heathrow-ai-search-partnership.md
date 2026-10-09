@@ -4,6 +4,8 @@ date: 2026-10-08
 category: Cloud & Infrastructure
 company: Adobe
 source: Adobe Newsroom, via Tech Startups|https://techstartups.com/2026/10/08/top-tech-news-today-october-8-2026-globalfoundries-google-manus-microsoft-nvidia-openai-tencent-more/
+image: /img/news/adobe-heathrow-ai-search-partnership.jpg
+image_credit: Warren Rohner / CC BY-SA 2.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Terminal_5_at_London_Heathrow_Airport,_2008.jpg
 ---
 Adobe and London's Heathrow Airport have expanded their partnership, with Heathrow adopting Adobe tools designed to make its content more discoverable in AI-powered search and assistants.
 

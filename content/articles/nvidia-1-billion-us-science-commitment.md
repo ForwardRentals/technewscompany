@@ -5,6 +5,8 @@ date: 2026-10-08
 category: AI
 company: Nvidia
 source: NVIDIA via GlobeNewswire|https://www.globenewswire.com/news-release/2026/10/08/3377484/0/en/nvidia-commits-1-billion-to-advance-us-science-over-the-next-five-years.html
+image: /img/news/nvidia-1-billion-us-science-commitment.jpg
+image_credit: Kevin McCarthy / CC BY 2.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Nvidia_HQ.jpg
 ---
 Nvidia said Wednesday it will commit $1 billion over the next five years to expand U.S. capacity for AI-driven scientific research, with a focus on quantum computing, healthcare and energy security.
 

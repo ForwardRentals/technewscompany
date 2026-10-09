@@ -4,6 +4,8 @@ date: 2026-10-06
 category: AI
 company: Google
 source: The Verge, via Tech Startups|https://techstartups.com/2026/10/06/top-tech-news-today-october-6-2026-amazon-amd-apple-deepseek-google-uber-more/
+image: /img/news/google-gemini-free-tier-flash-lite-changes.jpg
+image_credit: Asoundd / CC BY-SA 4.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Googleplex_HQ_(cropped).jpg
 ---
 Google is changing which Gemini models each subscription tier can use, The Verge reports, with free users losing access to the standard Flash model starting October 9.
 

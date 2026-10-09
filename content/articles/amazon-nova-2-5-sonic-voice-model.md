@@ -4,6 +4,8 @@ date: 2026-10-06
 category: AI
 company: Amazon
 source: AWS, via Tech Startups|https://techstartups.com/2026/10/06/top-tech-news-today-october-6-2026-amazon-amd-apple-deepseek-google-uber-more/
+image: /img/news/amazon-nova-2-5-sonic-voice-model.jpg
+image_credit: Asivechowdhury / CC BY-SA 4.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Amazon_Echo_Plus_02.jpg
 ---
 Amazon Web Services has released Nova 2.5 Sonic, a speech-to-speech model built for real-time voice agents such as customer service lines and in-app assistants.
 

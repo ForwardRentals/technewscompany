@@ -4,6 +4,8 @@ date: 2026-10-08
 category: Cloud & Infrastructure
 company: Google
 source: Yle News, via Tech Startups|https://techstartups.com/2026/10/08/top-tech-news-today-october-8-2026-globalfoundries-google-manus-microsoft-nvidia-openai-tencent-more/
+image: /img/news/google-finland-data-center-work-halted.jpg
+image_credit: IA / CC BY-SA 4.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Googlen_palvelinkeskus_Hamina_1.jpg
 ---
 Finnish authorities have ordered Tuike Finland, a Google subsidiary, to suspend preparatory work at planned data center sites in Muhos and Kajaani over suspected illegal forest clearing, Finnish broadcaster Yle reported.
 

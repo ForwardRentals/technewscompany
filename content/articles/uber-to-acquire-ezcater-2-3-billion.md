@@ -4,6 +4,8 @@ date: 2026-10-06
 category: Deals & Funding
 company: Uber
 source: Bloomberg, via Tech Startups|https://techstartups.com/2026/10/06/top-tech-news-today-october-6-2026-amazon-amd-apple-deepseek-google-uber-more/
+image: /img/news/uber-to-acquire-ezcater-2-3-billion.jpg
+image_credit: shopblocks / CC BY 2.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:UBER_Eats_Delivery_Cyclist_Riding_Through_a_Busy_Oxford_Road_in_Manchester.jpg
 ---
 Uber has agreed to acquire Boston-based ezCater, a marketplace for workplace and event catering, for $2.3 billion in cash, according to Bloomberg. The deal is subject to regulatory approval.
 

@@ -4,6 +4,8 @@ date: 2026-10-08
 category: Security
 company: Oracle
 source: SecurityWeek, via Tech Startups|https://techstartups.com/2026/10/08/top-tech-news-today-october-8-2026-globalfoundries-google-manus-microsoft-nvidia-openai-tencent-more/
+image: /img/news/oracle-health-breach-20-million.jpg
+image_credit: DronePhotographer / CC0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Oracle_Campus_in_Austin_2018.jpg
 ---
 Personal and medical information of nearly 20 million people was reportedly compromised in a breach of Oracle Health systems, SecurityWeek reports.
 

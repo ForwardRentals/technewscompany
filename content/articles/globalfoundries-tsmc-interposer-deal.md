@@ -4,6 +4,8 @@ date: 2026-10-08
 category: Chips
 company: GlobalFoundries
 source: Reuters, via Tech Startups|https://techstartups.com/2026/10/08/top-tech-news-today-october-8-2026-globalfoundries-google-manus-microsoft-nvidia-openai-tencent-more/
+image: /img/news/globalfoundries-tsmc-interposer-deal.jpg
+image_credit: Sangitiana Fararano / CC BY-SA 2.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Wafer_20110212.jpg
 ---
 GlobalFoundries has signed a five-year agreement to manufacture silicon interposers for TSMC at its facility in Malta, New York, Reuters reported Wednesday. Production is expected to ramp in the first half of 2028.
 

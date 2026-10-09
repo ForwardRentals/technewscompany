@@ -5,6 +5,8 @@ date: 2026-10-08
 category: Chips
 company: TSMC
 source: TSMC monthly revenue report, via Tech Startups|https://techstartups.com/2026/10/08/top-tech-news-today-october-8-2026-globalfoundries-google-manus-microsoft-nvidia-openai-tencent-more/
+image: /img/news/tsmc-september-2026-revenue.jpg
+image_credit: Peellden / CC BY-SA 3.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:TSMC_Fab5.JPG
 ---
 Taiwan Semiconductor Manufacturing Co. reported September revenue of NT$511.86 billion, up 54.6% from a year earlier, extending a run of strong results driven by demand for AI accelerators.
 
