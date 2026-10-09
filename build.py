@@ -20,7 +20,7 @@ OUT = ROOT / "docs"
 SITE = "https://technewscompany.com"
 NAME = "Tech News Company"
 ORDER_EMAIL = "thefulltimehobby@gmail.com"   # where /submit orders are emailed
-CF_BEACON_TOKEN = ""
+CF_BEACON_TOKEN = "7c826dd2cea24493b8061f5c1dfa5c5f"
 INDEXNOW_KEY = "70f6a9be0a7c7aff97f68c6d5ccc87d6"                 # served at /<key>.txt; run indexnow.py after each deploy                          # Cloudflare Web Analytics token; empty = no beacon
 
 CATS = {
