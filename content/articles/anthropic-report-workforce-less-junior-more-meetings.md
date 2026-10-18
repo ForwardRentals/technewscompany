@@ -4,6 +4,8 @@ date: 2026-10-17
 category: AI
 company: Anthropic
 source: TechCrunch|https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/
+image: /img/news/anthropic-report-workforce-less-junior-more-meetings.jpg
+image_credit: TechCrunch / CC BY 2.0 via Wikimedia Commons|https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg
 ---
 Anthropic published a report on October 17 describing how AI has changed its own workforce, finding that the company has fewer junior technical employees and more meetings, TechCrunch reported.
 
