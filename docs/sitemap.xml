@@ -14,10 +14,13 @@
 <url><loc>https://technewscompany.com/category/deals-funding/</loc></url>
 <url><loc>https://technewscompany.com/category/markets/</loc></url>
 <url><loc>https://technewscompany.com/companies/</loc></url>
+<url><loc>https://technewscompany.com/company/qualcomm/</loc></url>
 <url><loc>https://technewscompany.com/company/meta/</loc></url>
-<url><loc>https://technewscompany.com/company/nvidia/</loc></url>
 <url><loc>https://technewscompany.com/company/anthropic/</loc></url>
 <url><loc>https://technewscompany.com/company/openai/</loc></url>
+<url><loc>https://technewscompany.com/company/microsoft/</loc></url>
+<url><loc>https://technewscompany.com/company/apple/</loc></url>
+<url><loc>https://technewscompany.com/company/nvidia/</loc></url>
 <url><loc>https://technewscompany.com/company/sk-hynix/</loc></url>
 <url><loc>https://technewscompany.com/company/quest-diagnostics/</loc></url>
 <url><loc>https://technewscompany.com/company/amazon/</loc></url>
@@ -25,8 +28,6 @@
 <url><loc>https://technewscompany.com/company/google/</loc></url>
 <url><loc>https://technewscompany.com/company/flapping-airplanes/</loc></url>
 <url><loc>https://technewscompany.com/company/salesforce/</loc></url>
-<url><loc>https://technewscompany.com/company/microsoft/</loc></url>
-<url><loc>https://technewscompany.com/company/apple/</loc></url>
 <url><loc>https://technewscompany.com/company/waymo/</loc></url>
 <url><loc>https://technewscompany.com/company/tsmc/</loc></url>
 <url><loc>https://technewscompany.com/company/cert-in/</loc></url>
@@ -36,7 +37,6 @@
 <url><loc>https://technewscompany.com/company/ionq/</loc></url>
 <url><loc>https://technewscompany.com/company/gitlab/</loc></url>
 <url><loc>https://technewscompany.com/company/amd/</loc></url>
-<url><loc>https://technewscompany.com/company/qualcomm/</loc></url>
 <url><loc>https://technewscompany.com/company/samsung/</loc></url>
 <url><loc>https://technewscompany.com/company/idc-frontier/</loc></url>
 <url><loc>https://technewscompany.com/company/oracle/</loc></url>
@@ -46,7 +46,12 @@
 <url><loc>https://technewscompany.com/company/broadcom/</loc></url>
 <url><loc>https://technewscompany.com/company/uber/</loc></url>
 <url><loc>https://technewscompany.com/company/industry/</loc></url>
+<url><loc>https://technewscompany.com/news/anduril-qualcomm-bluechip-us-made-rugged-laptop/</loc><lastmod>2026-10-27</lastmod></url>
 <url><loc>https://technewscompany.com/news/meta-launches-35-billion-stock-offering-up-to-95-billion-ai-funding/</loc><lastmod>2026-10-26</lastmod></url>
+<url><loc>https://technewscompany.com/news/anthropic-files-for-ipo-ticker-ant-first-half-revenue-16-billion/</loc><lastmod>2026-10-26</lastmod></url>
+<url><loc>https://technewscompany.com/news/openai-gpt-6-1-terra-launch-agents-pricing/</loc><lastmod>2026-10-26</lastmod></url>
+<url><loc>https://technewscompany.com/news/microsoft-emergency-net-patches-brotli-flaw-cve-2026-111497/</loc><lastmod>2026-10-26</lastmod></url>
+<url><loc>https://technewscompany.com/news/apple-ipad-mini-oled-a20-pro-699-preorders-october-28/</loc><lastmod>2026-10-26</lastmod></url>
 <url><loc>https://technewscompany.com/news/spacex-reportedly-closes-40-billion-debt-financing-nvidia-gpus/</loc><lastmod>2026-10-25</lastmod></url>
 <url><loc>https://technewscompany.com/news/anthropic-confirms-claude-pulled-georgia-vote-count-data-on-its-own/</loc><lastmod>2026-10-25</lastmod></url>
 <url><loc>https://technewscompany.com/news/openai-trains-frontier-models-offline-no-live-internet/</loc><lastmod>2026-10-23</lastmod></url>
