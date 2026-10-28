@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Microsoft Ships Out-of-Band Windows Updates to Distrust eMudhra Certificates | Tech News Company</title>
+<meta name="description" content="Updates KB5134133 and KB5134125 remove seven certificates from the Windows trust list after researchers found weak private keys in eight eMudhra intermediate CAs.">
+<link rel="canonical" href="https://technewscompany.com/news/microsoft-windows-updates-distrust-emudhra-certificates/">
+<meta property="og:site_name" content="Tech News Company">
+<meta property="og:title" content="Microsoft Ships Out-of-Band Windows Updates to Distrust eMudhra Certificates">
+<meta property="og:description" content="Updates KB5134133 and KB5134125 remove seven certificates from the Windows trust list after researchers found weak private keys in eight eMudhra intermediate CAs.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://technewscompany.com/news/microsoft-windows-updates-distrust-emudhra-certificates/">
+<meta name="twitter:card" content="summary">
+<link rel="alternate" type="application/rss+xml" title="Tech News Company" href="/rss.xml">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<meta property="article:published_time" content="2026-10-26"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Microsoft Ships Out-of-Band Windows Updates to Distrust eMudhra Certificates", "description": "Updates KB5134133 and KB5134125 remove seven certificates from the Windows trust list after researchers found weak private keys in eight eMudhra intermediate CAs.", "datePublished": "2026-10-26T09:00:00-07:00", "dateModified": "2026-10-26T09:00:00-07:00", "mainEntityOfPage": "https://technewscompany.com/news/microsoft-windows-updates-distrust-emudhra-certificates/", "articleSection": "Security", "author": {"@type": "Organization", "name": "TNC Newsdesk"}, "publisher": {"@type": "Organization", "name": "Tech News Company", "logo": {"@type": "ImageObject", "url": "https://technewscompany.com/favicon.svg"}}, "about": {"@type": "Organization", "name": "Microsoft"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://technewscompany.com/"}, {"@type": "ListItem", "position": 2, "name": "Security", "item": "https://technewscompany.com/category/security/"}, {"@type": "ListItem", "position": 3, "name": "Microsoft Ships Out-of-Band Windows Updates to Distrust eMudhra Certificates"}]}</script>
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span>Wednesday, October 28, 2026</span><a href="/submit/" class="topcta">Publish a press release &rarr;</a></div></div>
+<header class="mast"><div class="wrap">
+  <a href="/" class="logo"><span class="logo-mark">TNC</span><span class="logo-word">Tech News <b>Company</b></span></a>
+  <a href="/submit/" class="btn btn-sm hide-sm">Submit a Release</a>
+</div></header>
+<nav class="nav"><div class="wrap"><a href="/">Latest</a><a href="/category/ai/">AI</a><a href="/category/chips/">Chips</a><a href="/category/devices/">Devices</a><a href="/category/cloud-infrastructure/">Cloud</a><a href="/category/security/" class=on>Security</a><a href="/category/deals-funding/">Deals</a><a href="/category/markets/">Markets</a><a href="/press-releases/">Press Releases</a></div></nav>
+<main>
+<div class="wrap">
+<div class="cols">
+<article class="story">
+  
+  <a class="kicker" href="/category/security/" style="color:#b45309">Security</a>
+  <h1>Microsoft Ships Out-of-Band Windows Updates to Distrust eMudhra Certificates</h1>
+  <p class="dek">Updates KB5134133 and KB5134125 remove seven certificates from the Windows trust list after researchers found weak private keys in eight eMudhra intermediate CAs.</p>
+  <div class="byline"><span>By TNC Newsdesk</span><span>October 26, 2026 &middot; 2 min read</span></div>
+  <div class="art wide" style="--c:#b45309" aria-hidden="true"><span class="art-co">Microsoft</span><span class="art-cat">Security</span></div>
+  <div class="prose"><p>Microsoft released out-of-band Windows updates on October 26 that remove trust in several certificates issued by the certificate authority eMudhra, BleepingComputer reported.</p>
+<h2>The updates</h2>
+<ul><li><strong>KB5134133</strong> covers Windows 11 24H2, 25H2 and 26H2.</li><li><strong>KB5134125</strong> covers Windows 10 21H2 and 22H2.</li></ul>
+<p>The updates target machines without Internet access, devices that cannot reach Microsoft&#x27;s certificate-update service, and devices where automatic Certificate Trust List (CTL) updates are disabled. They remove seven certificates from the Windows trust list: six eMudhra G3 roots and an AAA Certificate Services cross-sign. Microsoft said the same seven will be removed from the Edge trust list on October 27.</p>
+<h2>The underlying flaw</h2>
+<p>Researchers found that eight eMudhra intermediate CA private keys, all generated in April 2025, had values smaller than 256, so anyone could recover them by testing just 256 possible numbers. Such keys could let attackers forge certificates for legitimate websites and intercept encrypted traffic.</p>
+<p>eMudhra revoked the eight intermediates, and Mozilla, Google, Apple and other vendors began revoking them as well. Microsoft had earlier blocked the intermediates in the Windows Disallowed CTL, six used for TLS and two for code signing, and shipped a CRLSet update for Edge and WebView2.</p>
+<h2>Guidance</h2>
+<p>Microsoft advises installing the update on disconnected systems and identifying certificates that depend on the removed roots, since they may need replacing. Organizations with compatibility needs can choose to trust a certificate locally after their own assessment.</p>
+<p>The company noted that &quot;removing a root from a trust list is not the same as revoking the known impacted intermediate certificate authorities.&quot; It said it is investigating the remaining eMudhra roots and may make further trust changes.</p></div>
+  
+  <div class="source">Source: <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/" target="_blank" rel="noopener">BleepingComputer</a></div><a class="co-more" href="/company/microsoft/">More Microsoft news &rarr;</a>
+  <div class="share">Share:
+    <a target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=https://technewscompany.com/news/microsoft-windows-updates-distrust-emudhra-certificates/">LinkedIn</a>
+    <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?url=https://technewscompany.com/news/microsoft-windows-updates-distrust-emudhra-certificates/&text=Microsoft Ships Out-of-Band Windows Updates to Distrust eMudhra Certificates">X</a>
+    <a target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=https://technewscompany.com/news/microsoft-windows-updates-distrust-emudhra-certificates/">Facebook</a>
+  </div>
+</article>
+<aside class="rail">
+  <div class="box box-dark"><h3>Have news to share?</h3><p>Publish your press release on Tech News Company.</p><a class="btn" href="/submit/">Submit a release &rarr;</a></div>
+  <div class="box"><h3 class="box-h">Latest News</h3><ul class="list"><li><a href="/news/oracle-e-business-suite-cve-2026-101767-scanning-begins/"><span class="kicker" style="color:#b45309">Security</span>Attackers Begin Scanning for Oracle E-Business Suite Flaw CVE-2026-101767</a><span class="meta">October 28, 2026</span></li><li><a href="/news/apple-ios-27-2-siri-ai-languages-160-security-fixes/"><span class="kicker" style="color:#be123c">Devices</span>Apple Releases iOS 27.2 With Siri AI in Five New Languages and 160-Plus Security Fixes</a><span class="meta">October 27, 2026</span></li><li><a href="/news/anduril-qualcomm-bluechip-us-made-rugged-laptop/"><span class="kicker" style="color:#be123c">Devices</span>Anduril and Qualcomm Announce BlueChip, a US-Made Rugged Laptop</a><span class="meta">October 27, 2026</span></li><li><a href="/news/microsoft-voluntary-exit-offer-60000-employees/"><span class="kicker" style="color:#334155">Markets</span>Microsoft Offers Voluntary Exit Packages to About 60,000 Employees</a><span class="meta">October 26, 2026</span></li><li><a href="/news/meta-launches-35-billion-stock-offering-up-to-95-billion-ai-funding/"><span class="kicker" style="color:#047857">Deals &amp; Funding</span>Meta Launches $35 Billion Stock Offering as Part of Up to $95 Billion Equity Raise for AI</a><span class="meta">October 26, 2026</span></li><li><a href="/news/anthropic-files-for-ipo-ticker-ant-first-half-revenue-16-billion/"><span class="kicker" style="color:#047857">Deals &amp; Funding</span>Anthropic Files for IPO, Reporting $16.3 Billion in First-Half Revenue</a><span class="meta">October 26, 2026</span></li></ul></div>
+  <div class="box"><h3 class="box-h">Press Releases</h3><ul class="list"><li><a href="/press-releases/sidel-cren-free-waste-heat-site-studies/"><span class="kicker pr">Press Release</span>Sidel CREN Offers Free Waste Heat Site Studies to Industrial Plants, With Measured Pilots Before Any Scale-Up</a><span class="meta">October 21, 2026</span></li><li><a href="/press-releases/squamish-water-taxi-online-fare-estimator-ai-assistant/"><span class="kicker pr">Press Release</span>Squamish Water Taxi Adds Interactive Route Map, Fare Estimator and AI Assistant to Its Website</a><span class="meta">October 19, 2026</span></li><li><a href="/press-releases/freesite-company-hand-coded-websites-you-own/"><span class="kicker pr">Press Release</span>FreeSite Company Offers Free Hand-Coded Websites as an Alternative to Wix and Squarespace</a><span class="meta">October 19, 2026</span></li><li><a href="/press-releases/tech-news-company-launches-press-release-distribution/"><span class="kicker pr">Press Release</span>Tech News Company Launches Press Release Publishing for Startups and Technology Brands</a><span class="meta">October 8, 2026</span></li></ul></div>
+</aside>
+</div>
+<section class="sec"><div class="sec-h"><h2 style="--c:#111">Related Coverage</h2></div><div class="grid3"><article class="card ">
+  <a href="/news/oracle-e-business-suite-cve-2026-101767-scanning-begins/" class="card-art"><div class="art " style="--c:#b45309" aria-hidden="true"><span class="art-co">Oracle</span><span class="art-cat">Security</span></div></a>
+  <div class="card-body">
+    <a class="kicker" href="/category/security/" style="color:#b45309">Security</a>
+    <h3><a href="/news/oracle-e-business-suite-cve-2026-101767-scanning-begins/">Attackers Begin Scanning for Oracle E-Business Suite Flaw CVE-2026-101767</a></h3>
+    <p>Threat intelligence firm Defused recorded exploratory attacks against the critical bug days after Oracle&#x27;s October 20 patch; Oracle has not tagged it as exploited.</p>
+    <div class="meta">October 28, 2026 &middot; 2 min read</div>
+  </div>
+</article><article class="card ">
+  <a href="/news/microsoft-voluntary-exit-offer-60000-employees/" class="card-art"><div class="art img "><img src="/img/news/microsoft-voluntary-exit-offer-60000-employees.jpg" alt="Microsoft Offers Voluntary Exit Packages to About 60,000 Employees" loading="lazy" decoding="async"></div></a>
+  <div class="card-body">
+    <a class="kicker" href="/category/markets/" style="color:#334155">Markets</a>
+    <h3><a href="/news/microsoft-voluntary-exit-offer-60000-employees/">Microsoft Offers Voluntary Exit Packages to About 60,000 Employees</a></h3>
+    <p>The &quot;Voluntary Exit Offer&quot; covers staff at vice president level and below on select teams in four countries, with terms similar to standard severance.</p>
+    <div class="meta">October 26, 2026 &middot; 2 min read</div>
+  </div>
+</article><article class="card ">
+  <a href="/news/microsoft-emergency-net-patches-brotli-flaw-cve-2026-111497/" class="card-art"><div class="art img "><img src="/img/news/microsoft-emergency-net-patches-brotli-flaw-cve-2026-111497.jpg" alt="Microsoft Issues Emergency .NET Patches for Critical Brotli Flaw" loading="lazy" decoding="async"></div></a>
+  <div class="card-body">
+    <a class="kicker" href="/category/security/" style="color:#b45309">Security</a>
+    <h3><a href="/news/microsoft-emergency-net-patches-brotli-flaw-cve-2026-111497/">Microsoft Issues Emergency .NET Patches for Critical Brotli Flaw</a></h3>
+    <p>CVE-2026-111497 is an out-of-bounds write in the Brotli decoder; proof-of-concept exploits are public, but no in-the-wild attacks had been reported.</p>
+    <div class="meta">October 26, 2026 &middot; 2 min read</div>
+  </div>
+</article></div></section>
+</div>
+</main>
+<footer class="foot"><div class="wrap foot-grid">
+  <div><a href="/" class="logo logo-foot"><span class="logo-mark">TNC</span><span class="logo-word">Tech News <b>Company</b></span></a>
+  <p>Independent coverage of AI, chips, devices, cloud and security, plus press release publishing for technology companies.</p></div>
+  <div><h4>Sections</h4><a href="/category/ai/">AI</a><a href="/category/chips/">Chips</a><a href="/category/devices/">Devices</a><a href="/category/cloud-infrastructure/">Cloud &amp; Infrastructure</a><a href="/category/security/">Security</a><a href="/category/deals-funding/">Deals &amp; Funding</a></div>
+  <div><h4>Press Releases</h4><a href="/submit/">Submit a Release</a><a href="/submit/#pricing">Pricing</a><a href="/press-releases/">Latest Releases</a><a href="/editorial-policy/">Editorial Policy</a></div>
+  <div><h4>Company</h4><a href="/companies/">Companies Covered</a><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/rss.xml">RSS Feed</a></div>
+</div><div class="wrap copy">&copy; 2026 Tech News Company. News coverage is independently written and links to original sources. Press releases are submitted by the issuing company.</div></footer>
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7c826dd2cea24493b8061f5c1dfa5c5f"}'></script>
+</body>
+</html>
