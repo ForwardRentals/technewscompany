@@ -15,13 +15,15 @@
 <url><loc>https://technewscompany.com/category/markets/</loc></url>
 <url><loc>https://technewscompany.com/companies/</loc></url>
 <url><loc>https://technewscompany.com/company/tesla/</loc></url>
+<url><loc>https://technewscompany.com/company/nvidia/</loc></url>
+<url><loc>https://technewscompany.com/company/meta/</loc></url>
+<url><loc>https://technewscompany.com/company/google/</loc></url>
 <url><loc>https://technewscompany.com/company/palo-alto-networks/</loc></url>
 <url><loc>https://technewscompany.com/company/openai/</loc></url>
 <url><loc>https://technewscompany.com/company/qualcomm/</loc></url>
 <url><loc>https://technewscompany.com/company/snap/</loc></url>
 <url><loc>https://technewscompany.com/company/apple/</loc></url>
 <url><loc>https://technewscompany.com/company/amd/</loc></url>
-<url><loc>https://technewscompany.com/company/google/</loc></url>
 <url><loc>https://technewscompany.com/company/oracle/</loc></url>
 <url><loc>https://technewscompany.com/company/marvell/</loc></url>
 <url><loc>https://technewscompany.com/company/anthropic/</loc></url>
@@ -32,8 +34,6 @@
 <url><loc>https://technewscompany.com/company/intel/</loc></url>
 <url><loc>https://technewscompany.com/company/alphabet/</loc></url>
 <url><loc>https://technewscompany.com/company/microsoft/</loc></url>
-<url><loc>https://technewscompany.com/company/nvidia/</loc></url>
-<url><loc>https://technewscompany.com/company/meta/</loc></url>
 <url><loc>https://technewscompany.com/company/sk-hynix/</loc></url>
 <url><loc>https://technewscompany.com/company/quest-diagnostics/</loc></url>
 <url><loc>https://technewscompany.com/company/flapping-airplanes/</loc></url>
@@ -55,6 +55,9 @@
 <url><loc>https://technewscompany.com/company/uber/</loc></url>
 <url><loc>https://technewscompany.com/company/industry/</loc></url>
 <url><loc>https://technewscompany.com/news/tesla-to-end-cybertruck-production-in-2027-cybercab/</loc><lastmod>2026-11-06</lastmod></url>
+<url><loc>https://technewscompany.com/news/nasdaq-worst-day-since-april-2025-chip-stocks-nvidia-qualcomm-fall-9-percent/</loc><lastmod>2026-11-05</lastmod></url>
+<url><loc>https://technewscompany.com/news/meta-pauses-november-20-scraping-terms-after-court-and-regulator-pressure/</loc><lastmod>2026-11-05</lastmod></url>
+<url><loc>https://technewscompany.com/news/google-17-billion-wyoming-data-center-702-mw-fuel-cells-carbon-capture/</loc><lastmod>2026-11-05</lastmod></url>
 <url><loc>https://technewscompany.com/news/palo-alto-networks-reportedly-in-talks-buy-clutch-security-500-million/</loc><lastmod>2026-11-05</lastmod></url>
 <url><loc>https://technewscompany.com/news/openai-brockman-says-company-could-be-ipo-ready-in-2027/</loc><lastmod>2026-11-05</lastmod></url>
 <url><loc>https://technewscompany.com/news/qualcomm-q4-fy2026-handset-revenue-falls-26-percent-automotive-record/</loc><lastmod>2026-11-04</lastmod></url>
